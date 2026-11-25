@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# 视频制作的中间产物与工具缓存（不进仓库）
+视频制作/.uvcache/
+视频制作/.pw-browsers/
+视频制作/.tmp/
+视频制作/work/
+视频制作/vo/
+视频制作/segs/
+视频制作/out/
+视频制作/pages/
+视频制作/subs/
+视频制作/assets/*.png
+
+# 成片与 media/ 重复，只保留 media/（按 ASCII 路径给 Pages 用）
+视频/成片/*.mp4
+视频/成片/*.srt
