@@ -1,5 +1,7 @@
 # 成片 · 手书风配套视频
 
+> 在线看：https://zgdllt.github.io/liubang-command-center/
+
 八支片子，一支总述 + 七集。水墨速写画风，毛笔字幕（两行、抬离底边 118px），旁白是合成的。
 
 ## 怎么看

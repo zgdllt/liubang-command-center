@@ -58,7 +58,12 @@ a:hover{border-bottom-color:var(--red)}
 footer{margin-top:72px;padding-top:24px;border-top:1px solid rgba(120,96,62,.3);color:var(--ink3);font-size:14px}
 footer p{margin:6px 0}
 .now{display:inline-block;background:var(--red);color:#f7efe0;font-size:12px;letter-spacing:.2em;padding:3px 8px;margin-left:10px;vertical-align:middle}
-@media (max-width:640px){h1{font-size:44px}h2{font-size:30px}header{padding-top:36px}}
+@media (max-width:640px){
+h1{font-size:42px}h2{font-size:30px}header{padding-top:32px;gap:16px}
+.seal{width:58px;height:58px;font-size:18px}
+.tagline{font-size:17px}.player{padding:8px}
+td,th{padding:10px 6px;font-size:15px}
+}
 </style>
 </head>
 <body>
@@ -78,7 +83,7 @@ footer p{margin:6px 0}
   <div class="player" id="playerbox">
     <video id="player" controls preload="metadata" poster="media/covers/overview.jpg" playsinline>
       <source src="media/overview.mp4" type="video/mp4">
-      <track id="track" kind="subtitles" srclang="zh" label="中文字幕" default src="media/subs/overview.vtt">
+      <track id="track" kind="subtitles" srclang="zh" label="中文字幕（可选）" src="media/subs/overview.vtt">
     </video>
     <div class="cap"><span id="cap">总述 · 七关，一场实验</span><span>1080p · 中文字幕 · AI 配音</span></div>
   </div>

@@ -1,5 +1,7 @@
 # 刘邦的指挥部
 
+> 在线阅读 + 看片：https://zgdllt.github.io/liubang-command-center/
+
 一门用《史记》学带团队的课。你的团队是一群 AI：不用发工资，但会一本正经地骗你。
 
 ## 怎么开始
