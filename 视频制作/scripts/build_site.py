@@ -12,6 +12,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]          # 仓库根
+REPO = "https://github.com/zgdllt/liubang-command-center"
 FILMS = ROOT / "视频" / "成片"
 MEDIA = ROOT / "media"
 FONTS = ROOT / "视频制作" / "fonts"
@@ -226,11 +227,12 @@ def build_html() -> str:
 
   <h2><span class="n">伍</span>课程文件</h2>
   <div class="links">
-    <a href="课程总览.md">课程总览</a>
-    <a href="任务/">七关卡片</a>
-    <a href="讲师/">讲师手册与答案</a>
-    <a href="视频/">视频脚本</a>
-    <a href="视频制作/README.md">制作说明</a>
+    <a href="{REPO}/blob/main/课程总览.md">课程总览</a>
+    <a href="{REPO}/tree/main/任务">七关卡片</a>
+    <a href="{REPO}/tree/main/讲师">讲师手册与答案</a>
+    <a href="{REPO}/tree/main/视频">视频脚本</a>
+    <a href="{REPO}/blob/main/视频制作/README.md">制作说明</a>
+    <a href="{REPO}">GitHub 仓库</a>
   </div>
 
   <footer>
